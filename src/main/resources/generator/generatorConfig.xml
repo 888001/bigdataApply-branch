@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<classPathEntry location="E:\kaplorworkspace\mysqldriver\mysql-connector-java-5.1.7-bin.jar"/>
+  <context id="context1">
+  	
+    <jdbcConnection connectionURL="jdbc:mysql://47.95.231.218:3306/competition_db" driverClass="com.mysql.jdbc.Driver" password="Hu123321.." userId="root" />
+    <javaModelGenerator targetPackage="cn.njcit.mapper.model" targetProject="src/main/java" />
+    <sqlMapGenerator targetPackage="cn.njcit.mapper" targetProject="src/main/java" />
+    <javaClientGenerator targetPackage="cn.njcit.dao" targetProject="src/main/java" type="XMLMAPPER" />
+    <table schema="" tableName="%">
+      
+    </table>
+  </context>
+</generatorConfiguration>
